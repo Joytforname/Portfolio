@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<title>Igor's Portfolio</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container container">
+			<div class="header__logo-frame">
+				<span class="header__logo-text">ID</span>
+			</div>
+			<button type="button" class="header__burger-menu">
+				<span class="header__burger-line"></span>
+				<span class="header__burger-line"></span>
+				<span class="header__burger-line"></span>
+			</button>
+		</div>
+	</header>
+	<main class="main">
+		<section class="greeting">
+			<div class="greeting__container container">
+				<div class="greeting__avatar">
+					<div class="greeting__avatar-background"></div>
+					<img src="" alt="" class="greeting__avatar-image">
+				</div>
+				<div class="greeting__about">
+					<div class="greeting__about-text">
+						<h1 class="greeting__about-title">Привет, я Игорь 👋</h1>
+						<p class="greeting__about-description">Хочу начать карьеру в IT сфере с вакансии
+							фронтенд-разработчика. В разработке меня привлекает необходимость постоянно
+							творчески и нестандартно мыслить. Закончил прохождение буткемпа по профессии
+							"Фронтенд-разработчик" от онлайн школы
+							Hexlet.io.</p>
+					</div>
+					<div class="greeting__about-location"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+						<path
+							d="M20 10C20 16 12 22 12 22C12 22 4 16 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z"
+							stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						<path
+							d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+							stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</svg> <span>Moscow, Russia</span></div>
+					<div class="greeting__about-contacts">
+						<ul class="greeting__about-contacts-list">
+							<li class="greeting__about-contacts-item">
+								<a href="" class="greeting__about-contacts-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path
+										d="M14.9998 22V18C15.1389 16.7473 14.7797 15.4901 13.9998 14.5C16.9998 14.5 19.9998 12.5 19.9998 9C20.0798 7.75 19.7298 6.52 18.9998 5.5C19.2798 4.35 19.2798 3.15 18.9998 2C18.9998 2 17.9998 2 15.9998 3.5C13.3598 3 10.6398 3 7.99979 3.5C5.99979 2 4.99979 2 4.99979 2C4.69979 3.15 4.69979 4.35 4.99979 5.5C4.27167 6.51588 3.91827 7.75279 3.99979 9C3.99979 12.5 6.99979 14.5 9.99979 14.5C9.60979 14.99 9.31979 15.55 9.14979 16.15C8.97979 16.75 8.92979 17.38 8.99979 18V22"
+										stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M9 18C4.49 20 4 16 2 16" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg></a>
+							</li>
+							<li class="greeting__about-contacts-item">
+								<a href="" class="greeting__about-contacts-link"><a href="" class="greeting__contact-link"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g id="SVGRepo_iconCarrier">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M23.1117 4.49449C23.4296 2.94472 21.9074 1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645 14.7157L8.03849 21.2746C8.13583 21.6153 8.40618 21.8791 8.74917 21.968C9.09216 22.0568 9.45658 21.9576 9.70712 21.707L12.5938 18.8203L16.6375 21.8531C17.8113 22.7334 19.5019 22.0922 19.7967 20.6549L23.1117 4.49449ZM3.0633 11.0816L21.1525 4.0926L17.8375 20.2531L13.1 16.6999C12.7019 16.4013 12.1448 16.4409 11.7929 16.7928L10.5565 18.0292L10.928 15.9861L18.2071 8.70703C18.5614 8.35278 18.5988 7.79106 18.2947 7.39293C17.9906 6.99479 17.4389 6.88312 17.0039 7.13168L6.95124 12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908 14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z"
+											fill="#D1D5DB"></path>
+									</g>
+								</svg></a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>

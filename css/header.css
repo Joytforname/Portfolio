@@ -1,0 +1,36 @@
+.header {
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.header__logo-frame {
+	padding: 0 4px;
+	border: 1px solid #f9fafb;
+}
+.header__logo-text {
+	text-align: center;
+	font-family: Inter;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36px; /* 120% */
+	letter-spacing: -0.6px;
+}
+
+.header__burger-menu {
+	display: flex;
+	padding: 6px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+}
+.header__burger-line {
+	height: 2px;
+	width: 24px;
+	background-color: #F9FAFB;
+	border-radius: 2px;
+}
