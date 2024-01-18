@@ -1,6 +1,6 @@
 html {
-	--container:375px;
-	--padding-container:16px;
+	--container: 375px;
+	--padding-container: 16px;
 	box-sizing: border-box;
 	overflow-x: hidden;
 	position: relative;
@@ -17,7 +17,7 @@ body {
 	min-width: 320px;
 	min-height: 100vh;
 	background-color: #030712;
-	color: #F9FAFB;
+	color: #f9fafb;
 	overflow-x: hidden;
 	position: relative;
 }
@@ -73,8 +73,18 @@ fieldset {
 	margin: 0 auto;
 }
 
-.currency {
-	font-weight: 400;
+.block-title {
+	display: flex;
+	padding: 4px 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	background: #374151;
+	color: var#d1d5db;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	margin: 0 auto;
 }
-
-

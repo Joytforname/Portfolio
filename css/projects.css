@@ -1,0 +1,93 @@
+.projects {}
+
+.projects__container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	background-color: #111827;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.projects__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.project-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.project-card__image-wrap {
+	border-radius: 12px 12px 0px 0px;
+	border-bottom: 1px solid #1F2937;
+	padding: 32px;
+	background-color: #374151;
+}
+
+.project-card__image {
+	box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.04), 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.project-card__info {
+	display: flex;
+	padding: 32px;
+	flex-direction: column;
+	background-color: #1F2937;
+	gap: 24px;
+	align-self: stretch;
+	border-radius: 0px 0px 12px 12px;
+}
+
+.project-card__title {
+	color: #F9FAFB;
+	text-overflow: ellipsis;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+
+}
+
+.project-card__description {
+	color: #D1D5DB;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.project-card__technologies-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.project-card__technologies-item {
+	display: flex;
+	padding: 4px 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	background-color: #374151;
+	color: #D1D5DB;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+
+}
+
+.project-card__actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.project-card__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+}
+
