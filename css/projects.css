@@ -1,12 +1,8 @@
-.projects {}
-
 .projects__container {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
-	background-color: #111827;
-	padding-top: 64px;
-	padding-bottom: 64px;
+	background-color: var(--Gray-Dark-50);
 }
 
 .projects__list {
@@ -21,10 +17,13 @@
 }
 
 .project-card__image-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 12px 12px 0px 0px;
-	border-bottom: 1px solid #1F2937;
+	border-bottom: 1px solid var(--Gray-Dark-100);
 	padding: 32px;
-	background-color: #374151;
+	background-color: var(--Gray-Dark-200);
 }
 
 .project-card__image {
@@ -36,14 +35,14 @@
 	display: flex;
 	padding: 32px;
 	flex-direction: column;
-	background-color: #1F2937;
+	background-color: var(--Gray-Dark-100);
 	gap: 24px;
 	align-self: stretch;
 	border-radius: 0px 0px 12px 12px;
 }
 
 .project-card__title {
-	color: #F9FAFB;
+	color: var(--Gray-Dark-900);
 	text-overflow: ellipsis;
 	font-size: 18px;
 	font-weight: 600;
@@ -52,7 +51,7 @@
 }
 
 .project-card__description {
-	color: #D1D5DB;
+	color: var(--Gray-Dark-600);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -70,8 +69,8 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 12px;
-	background-color: #374151;
-	color: #D1D5DB;
+	background-color: var(--Gray-Dark-200);
+	color: var(--Gray-Dark-600);
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 20px;
@@ -80,6 +79,7 @@
 
 .project-card__actions {
 	display: flex;
+	
 	align-items: center;
 	gap: 10px;
 }
@@ -91,3 +91,48 @@
 	gap: 3px;
 }
 
+@media (min-width:1366px) {
+
+	.projects__list {
+		gap: 48px;
+	}
+
+	.project-card {
+		flex-direction: row;
+	}
+
+	.project-card__image-wrap {
+		border-radius: 12px 0px 0px 12px;
+		padding: 48px;
+	}
+
+	.project-card__image {
+		height: 384px;
+	}
+
+	.project-card__info {
+		padding: 48px;
+		flex-direction: column;
+		background-color: var(--Gray-Dark-100);
+		gap: 24px;
+		align-self: stretch;
+		border-radius: 0px 12px 12px 0px;
+	}
+
+	.project-card__title {
+		font-size: 20px;
+	}
+
+	.project-card__actions {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.project-card__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 3px;
+	}
+}

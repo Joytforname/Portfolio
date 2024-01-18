@@ -1,38 +1,35 @@
-.main {
-}
-.greeting {
-}
-.greeting__container {
-	padding-top: 64px;
-	padding-bottom: 64px;
-}
 .greeting__avatar {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
+
 }
+
 .greeting__avatar-background {
 	width: 280px;
 	height: 280px;
 	flex-shrink: 0;
-	border: 8px solid #030712;
-	background: #374151;
+	border: 8px solid var(--Gray-Dark-Default);
+	background: var(--Gray-Dark-200);
 }
+
 .greeting__avatar-image {
 	position: absolute;
 	top: -20px;
 	width: 240px;
 	height: 280px;
 	flex-shrink: 0;
-	border: 8px solid #030712;
-	background-color:lightgray 50% / cover no-repeat;
+	border: 8px solid var(--Gray-Dark-Default);
+	background-color: lightgray 50% / cover no-repeat;
 }
+
 .greeting__about {
 	display: flex;
 	flex-direction: column;
 	gap: 48px;
 }
+
 .greeting__about-text {
 	display: flex;
 	flex-direction: column;
@@ -42,8 +39,8 @@
 	align-self: stretch;
 	margin-top: 48px;
 }
+
 .greeting__about-title {
-	color: #f9fafb;
 	font-family: Inter;
 	font-size: 36px;
 	font-style: normal;
@@ -51,14 +48,16 @@
 	line-height: 40px;
 	margin-bottom: 24px;
 }
+
 .greeting__about-description {
-	color: #d1d5db;
+	color: var(--Gray-Dark-600);
 	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 24px;
 }
+
 .greeting__about-location {
 	display: flex;
 	flex-direction: row;
@@ -66,23 +65,61 @@
 	justify-content: flex-start;
 	gap: 8px;
 	align-self: stretch;
-	color: var(--Gray-Dark-600, #d1d5db);
+	color: var(--Gray-Dark-600);
 	font-family: Inter;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
 }
-.greeting__about-contacts {
 
-}
 .greeting__about-contacts-list {
 	display: flex;
 	flex-direction: row;
 	gap: 5px;
 }
-.greeting__about-contacts-item {
-}
-.greeting__about-contacts-link {
-}
-.greeting__contact-link {
+
+@media (min-width:1366px) {
+	.greeting__container {
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 168px;
+	}
+
+	.greeting__avatar-background {
+		width: 280px;
+		height: 320px;
+	}
+
+	.greeting__avatar-image {
+		top: -40px;
+		right: 40px;
+		width: 280px;
+		height: 320px;
+		object-fit: cover;
+	}
+
+	.greeting__about {
+		display: flex;
+		flex-direction: column;
+		gap: 48px;
+	}
+
+	.greeting__about-text {
+		gap: 8px;
+		margin-top: 0;
+	}
+
+	.greeting__about-title {
+		font-family: Inter;
+		font-size: 60px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 72px;
+		letter-spacing: -1.2px;
+		margin-bottom: 0;
+	}
+
+	.greeting__about-contacts-list {
+		gap: 12px;
+	}
 }
