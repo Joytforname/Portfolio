@@ -7,34 +7,6 @@ html {
 	--Gray-Dark-600: #D1D5DB;
 	--Gray-Dark-200: #374151;
 	--Gray-Dark-100: #1F2937;
-
-
-	/* purole colors */
-	/* --Gray-Dark-Default: #25274d;
-	--Gray-Dark-50: #464866;
-	--Gray-Dark-900: #aaabb8;
-	--Gray-Dark-600: #D1D5DB;
-	--Gray-Dark-200: #29648a;
-	--Gray-Dark-100: #2e9cca; */
-
-	/* blue colors */
-	/* --Gray-Dark-Default: #0C0032;
-	--Gray-Dark-900: #F9FAFB;
-	--Gray-Dark-600: #D1D5DB;
-	--Gray-Dark-200: #240090;
-	--Gray-Dark-100: #1F2937;
-	--Gray-Dark-50: #190061; */
-
-
-	/* default colors */
-	/* --Gray-Dark-Default: #030712;
-	--Gray-Dark-900: #F9FAFB;
-	--Gray-Dark-600: #D1D5DB;
-	--Gray-Dark-200: #374151;
-	--Gray-Dark-100: #1F2937;
-	--Gray-Dark-50: #111827; */
-
-
 	box-sizing: border-box;
 	overflow-x: hidden;
 	position: relative;
@@ -58,8 +30,6 @@ body {
 
 img,
 svg {
-	/* max-width: 100%;
-	min-height: 100%; */
 	height: auto;
 	display: block;
 }
@@ -132,6 +102,35 @@ fieldset {
 	.container {
 		max-width: calc(var(--container) + (var(--padding-container) * 2));
 		padding: 112px var(--padding-container);
+		margin: 0 auto;
+	}
+
+}
+
+@media (min-width:1366px) {
+	html {
+		--container: 1440px;
+		--padding-container: 80px;
+	}
+
+	.container {
+		max-width: calc(var(--container) + (var(--padding-container) * 2));
+		padding: 112px var(--padding-container);
+		margin: 0 auto;
+	}
+
+}
+
+
+@media (min-width:768px) {
+	html {
+		--container: 1440px;
+		--padding-container: 80px;
+	}
+
+	.container {
+		max-width: calc(var(--container) + (var(--padding-container) * 2));
+		padding: 60px var(--padding-container);
 		margin: 0 auto;
 	}
 
