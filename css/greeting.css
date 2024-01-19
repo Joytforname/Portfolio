@@ -11,6 +11,7 @@
 	height: 280px;
 	flex-shrink: 0;
 	border: 8px solid var(--Gray-Dark-Default);
+	border-radius: 10%;
 	background: var(--Gray-Dark-200);
 }
 
@@ -21,7 +22,8 @@
 	height: 280px;
 	flex-shrink: 0;
 	border: 8px solid var(--Gray-Dark-Default);
-	background-color: lightgray 50% / cover no-repeat;
+	background-color: lightgray;
+	border-radius: 10%;
 }
 
 .greeting__about {

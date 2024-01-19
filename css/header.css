@@ -27,6 +27,7 @@
 	align-items: center;
 	flex-direction: column;
 	gap: 5px;
+	transition: transform .3s ease-in-out;
 }
 
 .header__burger-line {
@@ -51,7 +52,9 @@
 	line-height: 24px;
 	color: var(--Gray-Dark-600);
 }
-
+.rotate-button{
+	transform: rotate(90deg);
+}
 @media (min-width:1366px) {
 	.header__container {
 			padding: 16px 112px;

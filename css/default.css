@@ -1,12 +1,13 @@
 html {
 	--container: 375px;
 	--padding-container: 16px;
-	--Gray-Dark-Default: #022140;
-	--Gray-Dark-50: #111827;
-	--Gray-Dark-200: #265077;
+	--Gray-Dark-Default: #060118;
+	--Gray-Dark-50: #0b0c10;
 	--Gray-Dark-900: #F9FAFB;
 	--Gray-Dark-600: #D1D5DB;
-	--Gray-Dark-100: #1e4258;
+	--Gray-Dark-200: #374151;
+	--Gray-Dark-100: #1F2937;
+
 
 	/* purole colors */
 	/* --Gray-Dark-Default: #25274d;

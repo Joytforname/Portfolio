@@ -26,6 +26,7 @@
 	flex-shrink: 0;
 	border: 8px solid var(--Gray-Dark-50);
 	background-color: var(--Gray-Dark-200);
+	border-radius: 10%;
 }
 
 .about__image {
@@ -37,6 +38,7 @@
 	position: absolute;
 	top: -20px;
 	object-fit: cover;
+	border-radius: 10%;
 }
 
 .about__text-wrap {
